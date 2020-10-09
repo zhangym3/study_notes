@@ -22,12 +22,7 @@ import com.jilin.zhangym.datasource.DynamicDataSourceEnum;
 
 import tk.mybatis.spring.annotation.MapperScan;
 
-/**
- * 主从配置
- * 
- * @author kevin
- * @date 2019-11-20 9:49
- */
+
 @Configuration
 @MapperScan(basePackages = "com.jilin.zhangym", sqlSessionTemplateRef = "sqlTemplate")
 public class DataSourceConfig {
